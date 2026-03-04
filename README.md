@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/JSelemin/etl_countries/README.en.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/JSelemin/etl_countries/blob/main/README.en.md)
 
 # Global Country Data Pipeline
 
