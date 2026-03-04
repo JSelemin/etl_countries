@@ -1,3 +1,5 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/JSelemin/etl_countries/README.en.md)
+
 # Global Country Data Pipeline
 
 Pequeño pipeline de datos que extrae información de países desde una API REST pública, transforma datos JSON anidados y los carga en una base de datos relacional SQLite en forma de cuatro tablas. El flujo sigue un diseño ETL (Extract → Transform → Load), utilizando pandas para las etapas de transformación y permitiendo un posterior análisis en herramientas como Excel o Power BI.
@@ -28,7 +30,7 @@ Pequeño pipeline de datos que extrae información de países desde una API REST
 
 ## Ejecución
 
-```
+```bash
 pip install -r requirements.txt
 python main.py
 ```
