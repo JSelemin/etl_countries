@@ -1,27 +1,30 @@
-#Global Country Data Pipeline
+# Global Country Data Pipeline
 
-Pequeño pipeline de datos que extrae información de países desde una API REST pública, transforma datos JSON anidados y los persiste en una base SQLite estructurada.
+Pequeño pipeline de datos que extrae información de países desde una API REST pública, transforma datos JSON anidados y los carga en una base de datos relacional SQLite en forma de cuatro tablas.
 
-###Tecnologías
+### Tecnologías
 
-Python
+- Python
 
-requests
+- requests
 
-pandas
+- pandas
 
-SQLite
+- SQLite
 
-SQL
+### Flujo
 
-###Flujo
+- Extracción de datos desde API REST.
 
-Extracción de datos desde API REST.
+- Normalización de campos anidados.
 
-Normalización de campos anidados.
+- Creación de tablas relacionales.
 
-Creación de tablas relacionales.
+- Carga en SQLite
 
-Carga en SQLite.
+## Ejecución
 
-Validación mediante consultas SQL.
+```
+pip install -r requirements.txt
+python main.py
+```
