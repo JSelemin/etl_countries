@@ -15,4 +15,3 @@ def write_tables(countries, borders, currencies, languages):
     borders.to_sql("borders", con, if_exists="replace", index=True)
     currencies.to_sql("currencies", con, if_exists="replace", index=True)
     languages.to_sql("languages", con, if_exists="replace", index=True)
-
