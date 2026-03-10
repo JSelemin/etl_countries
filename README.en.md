@@ -1,3 +1,5 @@
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/JSelemin/etl_countries/blob/main/README.md)
+
 # Global Country Data Pipeline
 
 Small data pipeline that extracts country information from a public REST API, transforms nested JSON data, and loads it into a relational SQLite database structured into four tables. The workflow follows an ETL design (Extract → Transform → Load), using pandas for the transformation stages and enabling further analysis in tools such as Excel or Power BI.
